@@ -61,12 +61,11 @@ nav {
 
 nav ul {
     line-height: 50px;
-    letter-spacing: 1px;
-    font-size: 13px;
+    letter-spacing: -0.5px;
+    font-size: 12px;
     display: flex;
     justify-content: space-around;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-family: 'GmarketSansBold';
 }
 
 section {
@@ -86,21 +85,20 @@ section {
     position: relative;
 }
 
-#slider .pink {
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
-    color: #ff7c98;
-}
-
 #slider h2 {
     font-size: 60px;
-    font-weight: 900;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'GmarketSansBold';
     color: #2a435d;
     position: absolute;
     top: 180px;
     left: 20px;
     line-height: 1.2;
+}
+
+#slider .pink {
+    font-size: 60px;
+    font-family: 'GmarketSansBold';
+    color: #ff7c98;
 }
 
 #slider p {
@@ -136,7 +134,7 @@ section {
     border-radius: 7px;
     color: white;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'GmarketSansMedium';
     cursor: pointer;
 }
 
@@ -205,17 +203,19 @@ section {
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 10px;
+    font-family: 'GmarketSansBold';
 }
 
 .flavors .tag {
     text-align: center;
     font-size: 13px;
     color: #9d9d9d;
+    font-family: 'GmarketSansMedium';
 }
 
 .flavors img {
     width: 100%;
-    margin-top: 35px;
+    margin-top: 23px;
     display: block;
 }
 
@@ -315,7 +315,7 @@ section {
     border-radius: 7px;
     color: white;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'GmarketSansMedium';
     cursor: pointer;
 }
 
@@ -356,38 +356,38 @@ section {
     font-size: 48px;
     position: absolute;
     top: 200px;
-    right: 50px;
-    font-family: 'Poppins', sans-serif;
+    right: 200px;
+    font-family: 'GmarketSansBold';
     color: #2a435d;
     font-weight: 900;
 }
 
 .birthday .pink {
     font-size: 48px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'GmarketSansBold';
     color: #ff7c98;
 }
 
 .birthday p {
+    font-size: 20px;
     position: absolute;
-    top: 350px;
-    right: 205px;
+    top: 440px;
+    right: 285px;
+    font-family: 'GmarketSansLight';
 }
 
 .birthday h4 {
-    font-size: 24px;
+    font-size: 14px;
     position: absolute;
-    top: 400px;
-    right: 355px;
-    font-family: 'Poppins', sans-serif;
+    top: 595px;
+    right: 160px;
+    font-family: 'GmarketSansLight';
     color: #2a435d;
-    font-weight: 700;
 }
 
 .birthday .price {
-    font-size: 36px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-size: 24px;
+    font-family: 'GmarketSansBold';
     color: #ff7c98;
 }
 
@@ -395,14 +395,14 @@ section {
     width: 190px;
     height: 50px;
     position: absolute;
-    top: 490px;
-    right: 370px;
+    top: 575px;
+    right: 380px;
     background-color: #ff7c98;
     border: none;
     border-radius: 7px;
     color: white;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'GmarketSansMedium';
     cursor: pointer;
 }
 
@@ -476,53 +476,49 @@ section {
 #section4 h4 {
     font-size: 48px;
     position: absolute;
-    top: 350px;
-    left: 100px;
-    font-family: 'Poppins', sans-serif;
+    top: 300px;
+    left: 125px;
+    font-family: 'GmarketSansBold';
     color: #2a435d;
     font-weight: 900;
 }
 
 #section4 p {
-    font-size: 18px;
+    font-size: 20px;
     position: absolute;
-    top: 440px;
-    left: 100px;
+    top: 460px;
+    left: 125px;
+    font-family: 'GmarketSansLight';
 }
 
 #section4 h5 {
     font-size: 14px;
     position: absolute;
-    top: 520px;
-    left: 100px;
+    top: 610px;
+    left: 315px;
+    font-family: 'GmarketSansLight';
+    letter-spacing: -0.5px;
 }
 
 #section4 .price {
     font-size: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'GmarketSansBold';
     color: #ff7c98;
     font-weight: 900;
 }
 
-#section4 h6 {
-    font-size: 16px;
-    position: absolute;
-    top: 560px;
-    left: 100px;
-}
-
 #section4 button {
-    width: 190px;
+    width: 175px;
     height: 50px;
     position: absolute;
-    top: 600px;
-    left: 100px;
+    top: 590px;
+    left: 125px;
     background-color: #ff7c98;
     border: none;
     border-radius: 7px;
     color: white;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'GmarketSansMedium';
     cursor: pointer;
 }
 
@@ -541,6 +537,13 @@ section {
     right: 120px;
 }
 
+#section4 img:last-child {
+    width: 170px;
+    height: 252px;
+    position: absolute;
+    top: 550px;
+    right: 20px;
+}
 
 #section5 {
     width: 1200px;
