@@ -65,7 +65,7 @@ nav ul {
     font-size: 12px;
     display: flex;
     justify-content: space-around;
-    font-family: 'GmarketSansBold';
+    font-family: 'GmarketSansMedium';
 }
 
 section {
@@ -105,29 +105,38 @@ section {
     position: absolute;
     top: 350px;
     left: 20px;
+    font-size: 20px;
+    font-family: 'GmarketSansLight';
 }
 
 #slider h3 {
     position: absolute;
-    top: 400px;
+    top: 450px;
     left: 20px;
-    font-size: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-size: 18px;
+    font-family: 'GmarketSansLight';
+}
+
+#slider h4 {
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    font-size: 18px;
+    font-family: 'GmarketSansLight';
 }
 
 #slider .price {
-    font-size: 36px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-size: 28px;
+    font-family: 'GmarketSansBold';
     color: #ff7c98;
+    letter-spacing: -0.5px;
 }
 
 #slider button {
     width: 190px;
     height: 50px;
     position: absolute;
-    top: 490px;
+    top: 570px;
     left: 20px;
     background-color: #ff7c98;
     border: none;
@@ -143,6 +152,13 @@ section {
     color: #ff7c98;
     border: 1px solid #ff7c98;
     transition: all 0.3s ease;
+}
+
+#section_back {
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/index/section_back.png);
+    background-repeat: repeat-x;
 }
 
 #section2 {
@@ -195,6 +211,7 @@ section {
     border: 1px solid #e2d9d6;
     position: relative;
     cursor: pointer;
+    background-color: white;
 }
 
 .flavors p {
@@ -261,6 +278,28 @@ section {
     transition: 0.3s ease-in-out;
 }
 
+.flavors .cart {
+    position: absolute;
+    top: 122px;
+    left: 95px;
+    opacity: 0;
+    transition: 0.3s ease;
+    color: white;
+    font-family: 'GmarketSansLight';
+
+}
+
+.flavors .info {
+    position: absolute;
+    top: 119px;
+    left: 75px;
+    opacity: 0;
+    transition: 0.3s ease;
+    color: white;
+    font-family: 'GmarketSansLight';
+
+}
+
 .basket i:hover {
     background-color: #ff7c98;
     border: 1px solid #ff7c98;
@@ -281,11 +320,27 @@ section {
     opacity: 1;
 }
 
+.box1 .basket:hover~.cart {
+    opacity: 1;
+}
+
+.box1 .enter:hover~.info {
+    opacity: 1;
+}
+
 .box2:hover .overlay2 {
     opacity: 0.75;
 }
 
 .box2:hover i {
+    opacity: 1;
+}
+
+.box2 .basket:hover~.cart {
+    opacity: 1;
+}
+
+.box2 .enter:hover~.info {
     opacity: 1;
 }
 
@@ -297,11 +352,27 @@ section {
     opacity: 1;
 }
 
+.box3 .basket:hover~.cart {
+    opacity: 1;
+}
+
+.box3 .enter:hover~.info {
+    opacity: 1;
+}
+
 .box4:hover .overlay4 {
     opacity: 0.75;
 }
 
 .box4:hover i {
+    opacity: 1;
+}
+
+.box4 .basket:hover~.cart {
+    opacity: 1;
+}
+
+.box4 .enter:hover~.info {
     opacity: 1;
 }
 
@@ -359,7 +430,6 @@ section {
     right: 200px;
     font-family: 'GmarketSansBold';
     color: #2a435d;
-    font-weight: 900;
 }
 
 .birthday .pink {
@@ -380,9 +450,10 @@ section {
     font-size: 14px;
     position: absolute;
     top: 595px;
-    right: 160px;
+    right: 125px;
     font-family: 'GmarketSansLight';
     color: #2a435d;
+    letter-spacing: -0.5px;
 }
 
 .birthday .price {
@@ -392,11 +463,11 @@ section {
 }
 
 .birthday button {
-    width: 190px;
+    width: 175px;
     height: 50px;
     position: absolute;
     top: 575px;
-    right: 380px;
+    right: 395px;
     background-color: #ff7c98;
     border: none;
     border-radius: 7px;
@@ -458,7 +529,7 @@ section {
     font-size: 36px;
     position: absolute;
     top: 100px;
-    left: 575px;
+    left: 570px;
     font-family: 'Caveat', cursive;
     color: #ff7c98;
 }
@@ -550,6 +621,62 @@ section {
     height: 800px;
     background-color: aliceblue;
     margin: 0 auto;
+    position: relative;
+}
+
+#section5 h2 {
+    font-size: 36px;
+    position: absolute;
+    top: 100px;
+    left: 570px;
+    font-family: 'Caveat', cursive;
+    color: #ff7c98;
+}
+
+#section5 h3 {
+    font-size: 48px;
+    position: absolute;
+    top: 150px;
+    left: 492px;
+    font-family: 'Poppins', sans-serif;
+    color: #2a435d;
+    font-weight: 900;
+}
+
+#section5 .icecreambox {
+    width: 400px;
+    height: 300px;
+    background-color: #9d9d9d;
+}
+
+#section5 .icecreamcake {
+    width: 275px;
+    height: 475px;
+    background-color: #e2d9d6;
+}
+
+#section5 .beverage {
+    width: 230px;
+    height: 365px;
+    background-color: #2a435d;
+}
+
+#section5 .coffee {
+    width: 330px;
+    height: 290px;
+    background-color: antiquewhite;
+}
+
+#section5 .gift {
+    width: 275px;
+    height: 185px;
+    background-color: violet;
+}
+
+#section5 .dessert {
+    width: 330px;
+    height: 180px;
+    background-color: tomato;
 }
 
 #section6 {
