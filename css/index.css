@@ -212,6 +212,7 @@ section {
     position: relative;
     cursor: pointer;
     background-color: white;
+    box-shadow: 5px 5px 15px #9d9d9d;
 }
 
 .flavors p {
@@ -241,8 +242,8 @@ section {
 .overlay3,
 .overlay4 {
     position: absolute;
-    width: 250px;
-    height: 350px;
+    width: 251px;
+    height: 351px;
     top: 0;
     left: 0;
     opacity: 0;
@@ -554,6 +555,10 @@ section {
     font-weight: 900;
 }
 
+#section4 h4 .gold {
+    color: gold;
+}
+
 #section4 p {
     font-size: 20px;
     position: absolute;
@@ -616,10 +621,15 @@ section {
     right: 20px;
 }
 
+#section5_back {
+    width: 100%;
+    height: 1150px;
+    background-image: url(../img/index/section5_back.png)
+}
+
 #section5 {
     width: 1200px;
-    height: 800px;
-    background-color: aliceblue;
+    height: 1150px;
     margin: 0 auto;
     position: relative;
 }
@@ -627,7 +637,7 @@ section {
 #section5 h2 {
     font-size: 36px;
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 570px;
     font-family: 'Caveat', cursive;
     color: #ff7c98;
@@ -636,47 +646,326 @@ section {
 #section5 h3 {
     font-size: 48px;
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 492px;
     font-family: 'Poppins', sans-serif;
     color: #2a435d;
     font-weight: 900;
 }
 
-#section5 .icecreambox {
+#section5 .icecream {
     width: 400px;
     height: 300px;
-    background-color: #9d9d9d;
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 310px;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #9d9d9d;
+}
+
+#section5 .icecream h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 40px;
+    letter-spacing: -0.5px;
+    color: #ff7c98;
+}
+
+#section5 .icecream p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 40px;
+    letter-spacing: -0.5px;
+}
+
+#section5 .icecream img {
+    width: 80%;
+    margin-top: -110px;
+    margin-left: 110px;
+}
+
+#section5 .icecream i {
+    font-size: 12px;
+    border-radius: 50px;
+    border: 1px solid #e2d9d6;
+    padding: 10px;
+    background-color: white;
+    float: left;
+    margin-top: -200px;
+    margin-left: 40px;
+}
+
+#section5 .icecream .more {
+    font-size: 12px;
+    color: #9d9d9d;
+    float: left;
+    margin-top: -192.5px;
+    margin-left: 85px;
 }
 
 #section5 .icecreamcake {
     width: 275px;
     height: 475px;
-    background-color: #e2d9d6;
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    right: 180px;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #9d9d9d;
+}
+
+#section5 .icecreamcake h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 40px;
+    letter-spacing: -0.5px;
+    color: gold;
+}
+
+#section5 .icecreamcake p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 40px;
+    letter-spacing: -0.5px;
+}
+
+#section5 .icecreamcake img {
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+#section5 .icecreamcake i {
+    font-size: 12px;
+    border-radius: 50px;
+    border: 1px solid #e2d9d6;
+    padding: 10px;
+    background-color: white;
+    float: left;
+    margin-top: -340px;
+    margin-left: 40px;
+}
+
+#section5 .icecreamcake .more {
+    font-size: 12px;
+    color: #9d9d9d;
+    float: left;
+    margin-top: -332.5px;
+    margin-left: 85px;
 }
 
 #section5 .beverage {
     width: 230px;
     height: 365px;
-    background-color: #2a435d;
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #9d9d9d;
+}
+
+#section5 .beverage h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 40px;
+    letter-spacing: -0.5px;
+    color: #ff7c98;
+}
+
+#section5 .beverage p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 40px;
+    letter-spacing: -0.5px;
+}
+
+#section5 .beverage img {
+    width: 275px;
+    height: 275px;
+    margin-top: 35px;
+    margin-left: -25px;
+}
+
+#section5 .beverage i {
+    font-size: 12px;
+    border-radius: 50px;
+    border: 1px solid #e2d9d6;
+    padding: 10px;
+    background-color: white;
+    float: left;
+    margin-top: -300px;
+    margin-left: 40px;
+}
+
+#section5 .beverage .more {
+    font-size: 12px;
+    color: #9d9d9d;
+    float: left;
+    margin-top: -292.5px;
+    margin-left: 85px;
 }
 
 #section5 .coffee {
     width: 330px;
     height: 290px;
-    background-color: antiquewhite;
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    left: 380px;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #9d9d9d;
+}
+
+#section5 .coffee h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 40px;
+    letter-spacing: -0.5px;
+    color: peru;
+}
+
+#section5 .coffee p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 40px;
+    letter-spacing: -0.5px;
+}
+
+#section5 .coffee img {
+    width: 160px;
+    height: 246px;
+    margin-top: -70px;
+    margin-left: 160px;
+}
+
+#section5 .coffee i {
+    font-size: 12px;
+    border-radius: 50px;
+    border: 1px solid #e2d9d6;
+    padding: 10px;
+    background-color: white;
+    float: left;
+    margin-top: -160px;
+    margin-left: 40px;
+}
+
+#section5 .coffee .more {
+    font-size: 12px;
+    color: #9d9d9d;
+    float: left;
+    margin-top: -152.5px;
+    margin-left: 85px;
 }
 
 #section5 .gift {
     width: 275px;
     height: 185px;
-    background-color: violet;
+    background-color: white;
+    position: absolute;
+    top: 680px;
+    right: 180px;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #9d9d9d;
+}
+
+#section5 .gift h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    letter-spacing: -0.5px;
+    color: #ff7c98;
+}
+
+#section5 .gift p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 20px;
+    letter-spacing: -0.5px;
+}
+
+#section5 .gift img {
+    margin: 60px 0 0 60px;
+}
+
+#section5 .gift i {
+    font-size: 12px;
+    border-radius: 50px;
+    border: 1px solid #e2d9d6;
+    padding: 10px;
+    background-color: white;
+    float: left;
+    margin-top: -170px;
+    margin-left: 25.5px;
+}
+
+#section5 .gift .more {
+    font-size: 12px;
+    color: #9d9d9d;
+    float: left;
+    margin-top: -162.5px;
+    margin-left: 72.5px;
 }
 
 #section5 .dessert {
     width: 330px;
     height: 180px;
-    background-color: tomato;
+    background-color: white;
+    position: absolute;
+    top: 825px;
+    left: 380px;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #9d9d9d;
+}
+
+#section5 .dessert h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 40px;
+    letter-spacing: -0.5px;
+    color: #ff7c98;
+    text-align: right;
+}
+
+#section5 .dessert p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 40px;
+    letter-spacing: -0.5px;
+    text-align: right;
+}
+
+#section5 .dessert img {
+    width: 160px;
+    height: auto;
+    margin-top: -85px;
+    margin-left: -10px;
+}
+
+#section5 .dessert i {
+    font-size: 12px;
+    border-radius: 50px;
+    border: 1px solid #e2d9d6;
+    padding: 10px;
+    background-color: white;
+    float: right;
+    margin-top: 20px;
+    margin-right: 85px;
+}
+
+#section5 .dessert .more {
+    font-size: 12px;
+    color: #9d9d9d;
+    float: right;
+    margin-top: 25.5px;
+    margin-right: -75px;
+    text-align: right;
 }
 
 #section6 {
