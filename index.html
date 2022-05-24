@@ -40,14 +40,63 @@
         </div>
 
         <nav>
-            <ul>
-                <li><a href="#" style="color: #ff7c98;">LOGIN</a></li>
-                <li><a href="#">JOIN</a></li>
-                <li><a href="#">MENU</a></li>
-                <li><a href="#">영양 성분 및 알레르기</a></li>
-                <li><a href="#">EVENT</a></li>
-                <li><a href="#">STORE</a></li>
-                <li><a href="#">ABOUT</a></li>
+            <ul class="menu">
+                <li><a href="#" style="color: #ff7c98; font-size: 8px;">LOGIN</a>
+                    <ul class="sub_menu">
+                        <li><a href="#"><img src="img/index/img_happypoint_app.jpg" alt="img_happypoint_app"
+                                    style="width: 95%; height:auto; margin-top: 50px;"></a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#" style="font-size: 12px;">FLAVOR OF THE MONTH</a>
+                    <ul class="sub_menu">
+                        <li><a href="#"><img src="img/index/img_monthly.png" alt="img_monthly"
+                                    style="width: 95%; height:auto;"></a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">MENU</a>
+                    <ul class="sub_menu">
+                        <li><a href="#">아이스크림</a></li>
+                        <li><a href="#">아이스크림케이크</a></li>
+                        <li><a href="#">음료</a></li>
+                        <li><a href="#">커피</a></li>
+                        <li><a href="#">디저트</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">영양 성분 및 알레르기</a>
+                    <ul class="sub_menu">
+                        <li><a href="#">아이스크림</a></li>
+                        <li><a href="#">음료</a></li>
+                        <li><a href="#">커피</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">EVENT</a>
+                    <ul class="sub_menu">
+                        <li><a href="#">진행중이벤트</a></li>
+                        <li><a href="#">당첨자발표</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">STORE</a>
+                    <ul class="sub_menu">
+                        <li><a href="#">매장찾기</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">단체주문</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">ABOUT</a>
+                    <ul class="sub_menu">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">점포개설문의</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
 
@@ -60,13 +109,40 @@
                 <h4>파인트 핸드팩 :<span class="price"> 8,900원 ~</span></h4>
                 <button>매장 둘러보기</button>
 
-                <div id="video">
-                    <iframe width="620" height="349" src="https://www.youtube.com/embed/iP-PDY1cviY"
+                <div id="video1">
+                    <iframe width="800" height="450" src="https://www.youtube.com/embed/iP-PDY1cviY"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
 
+                <!-- <div id="video2">
+                    <iframe width="300" height="169" src="https://www.youtube.com/embed/o6fmlY9cGcw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div id="video3">
+                    <iframe width="300" height="169" src="https://www.youtube.com/embed/oxLdjAhmRvE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div id="video4">
+                    <iframe width="300" height="169" src="https://www.youtube.com/embed/D9aZx5nCAd8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div id="video5">
+                    <iframe width="300" height="169" src="https://www.youtube.com/embed/FMJi7_Wt-uA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div> -->
             </div>
         </section>
 
@@ -76,9 +152,12 @@
                 <h2>Baskin Robbins</h2>
                 <h3>Monthly <span class="pink">Best</span></h3>
 
-                <div class="flavors">
+                <span class="prev"><i class="fa-solid fa-circle-chevron-left"></i></span>
+                <span class="next"><i class="fa-solid fa-circle-chevron-right"></i></span>
 
-                    <div class="box1">
+                <ul class="flavors">
+
+                    <li class="box1">
                         <p>피카피카 피카츄</p>
                         <div class="tag">#바나나 #커스터드크림</div>
                         <img src="img/index/flavor_1.png" alt="flavor_1">
@@ -87,9 +166,9 @@
                         <span class="enter"><i class="fa-solid fa-share"></i></span>
                         <div class="cart">장바구니</div>
                         <div class="info">제품 상세 정보</div>
-                    </div>
+                    </li>
 
-                    <div class="box2">
+                    <li class="box2">
                         <p>나와라 꼬부기</p>
                         <div class="tag">#꼬부기 #소다</div>
                         <img src="img/index/flavor_2.png" alt="flavor_2">
@@ -98,9 +177,9 @@
                         <span class="enter"><i class="fa-solid fa-share"></i></span>
                         <div class="cart">장바구니</div>
                         <div class="info">제품 상세 정보</div>
-                    </div>
+                    </li>
 
-                    <div class="box3">
+                    <li class="box3">
                         <p>민트 초콜릿 칩</p>
                         <div class="tag">#민트 #초콜릿 칩</div>
                         <img src="img/index/flavor_3.png" alt="flavor_3">
@@ -109,9 +188,9 @@
                         <span class="enter"><i class="fa-solid fa-share"></i></span>
                         <div class="cart">장바구니</div>
                         <div class="info">제품 상세 정보</div>
-                    </div>
+                    </li>
 
-                    <div class="box4">
+                    <li class="box4">
                         <p>NEW 슈팅스타</p>
                         <div class="tag">#팝핑캔디 #체리시럽</div>
                         <img src="img/index/flavor_4.png" alt="flavor_4">
@@ -120,8 +199,9 @@
                         <span class="enter"><i class="fa-solid fa-share"></i></span>
                         <div class="cart">장바구니</div>
                         <div class="info">제품 상세 정보</div>
-                    </div>
-                </div>
+                    </li>
+
+                </ul>
 
                 <button>더 보기</button>
 
@@ -333,7 +413,31 @@
             <div class="copyright">Copyright ⓒ 2016 BRKOREA Company. All Rights Reserved.</div>
         </footer>
 
-        <!-- <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script> -->
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+        <script>
+            $(function () {
+                $('.menu>li').mouseover(function () {
+                    $('.sub_menu').stop().slideDown();
+                }).mouseout(function () {
+                    $('.sub_menu').stop().slideUp();
+                });
+            });
+
+            $('.prev').click(function () {
+                $('.flavors li:last').prependTo('.flavors');
+                $('.flavors').css('margin-left', -400);
+                $('.flavors').stop().animate({ marginLeft: 0 }, 800)
+            });
+
+            $('.next').click(function () {
+                $('.flavors').stop().animate({ marginLeft: -400 }, 800, function () {
+                    $('.flavors li:first').appendTo('.flavors');
+                    $('.flavors').css({ marginLeft: 0 });
+                });
+            });
+
+        </script>
 
     </div>
 </body>
