@@ -15,9 +15,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="javascript/index.js"></script>
 </head>
 
 <body>
+
     <div id="wrap">
 
         <div id="header_back">
@@ -111,38 +115,10 @@
 
                 <div id="video1">
                     <iframe width="800" height="450" src="https://www.youtube.com/embed/iP-PDY1cviY"
-                        title="YouTube video player" frameborder="0"
+                        title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
-
-                <!-- <div id="video2">
-                    <iframe width="300" height="169" src="https://www.youtube.com/embed/o6fmlY9cGcw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-
-                <div id="video3">
-                    <iframe width="300" height="169" src="https://www.youtube.com/embed/oxLdjAhmRvE"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-
-                <div id="video4">
-                    <iframe width="300" height="169" src="https://www.youtube.com/embed/D9aZx5nCAd8"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-
-                <div id="video5">
-                    <iframe width="300" height="169" src="https://www.youtube.com/embed/FMJi7_Wt-uA"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div> -->
             </div>
         </section>
 
@@ -304,9 +280,12 @@
             <h2>Customer</h2>
             <h3>Rating</h3>
 
-            <div id="rating_box">
+            <span class="prev2"><i class="fa-solid fa-circle-chevron-left"></i></span>
+            <span class="next2"><i class="fa-solid fa-circle-chevron-right"></i></span>
 
-                <div class="rate_1">
+            <ul id="rating_box">
+
+                <li class="rate_1">
                     <i class="fa-brands fa-instagram"
                         style="font-size: 40px; margin:20px; border: 1px solid #e2d9d6; padding: 12px; border-radius: 50px;"></i>
                     <span class="name">jju_nbug</span>
@@ -318,16 +297,16 @@
                         <i class="fa-solid fa-star-half"></i>
                     </span>
                     <p>
-                        포켓몬의 유행은 어디까지인가…
-                        이제는 배라랑 콜라보까지 했더라구요😂
+                        포켓몬의 유행은 어디까지인가…😂
                         5월의 맛으로는 피카피카 피카츄 맛을 추천하던데
                         바나나 맛을 좋아하지 않아서 레몬소다맛 꼬북이로 먹을려다가
-                        상큼한 치코리타 맛이 있길래 치코리타로 택했어요🌱
+                        상큼한 치코리타 맛이 있길래 치코리타로 택했어요🌱 <br><br>
                     </p>
+                    <div class="sharp">#치코치코 치코리타 #배스킨라빈스 시흥능곡점</div>
                     <img src="img/index/rateicecream_1.png" alt="rateicecream_1">
-                </div>
+                </li>
 
-                <div class="rate_2">
+                <li class="rate_2">
                     <i class="fa-brands fa-instagram"
                         style="font-size: 40px; margin:20px; border: 1px solid #e2d9d6; padding: 12px; border-radius: 50px;"></i>
                     <span class="name">_miinkuu</span>
@@ -345,11 +324,53 @@
                         뉴치케 다음으로 소금우유 너닷 〰️〰️〰️〰️〰️❣️
 
                         매장 취식 안돼서... 밖에서 오덜오덜 떨면서 먹음
-                        ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 그래도 맛이쪙...
+                        ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 그래도 맛이쪙... <br><br>
                     </p>
+                    <div class="sharp">#소금우유 아이스크림 #배스킨라빈스 안산중앙점</div>
                     <img src="img/index/rateicecream_2.png" alt="rateicecream_2">
-                </div>
-            </div>
+                </li>
+
+                <li class="rate_1">
+                    <i class="fa-brands fa-instagram"
+                        style="font-size: 40px; margin:20px; border: 1px solid #e2d9d6; padding: 12px; border-radius: 50px;"></i>
+                    <span class="name">rlawlsfl</span>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </span>
+                    <p>
+                        둘다 처음먹어봤는데 맛있다.
+                        나와라꼬부기는 레몬샤베트와 소다맛아이스크림 이렇게 두가지 섞여있고
+                        피카피카피카츄는 바나나맛아이스크림 에다 커스타드리본, 초콜릿칩, 레드팝핑캔디가 들어있다. <br><br>
+                    </p>
+                    <div class="sharp">#나와라꼬부기 #피카피카피카츄 #배스킨라빈스 한남점</div>
+                    <img src="img/index/rateicecream_3.png" alt="rateicecream_3">
+                </li>
+
+                <li class="rate_2">
+                    <i class="fa-brands fa-instagram"
+                        style="font-size: 40px; margin:20px; border: 1px solid #e2d9d6; padding: 12px; border-radius: 50px;"></i>
+                    <span class="name">booorioman</span>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <p>
+                        돼지바맛 아이스크림이 BR에 나타났다!!!🍦
+                        스트로베리 아이스크림과🍓우유 아이스크림에 오레오 딸기 크림 쿠키와 스트로베리 리본과 칩이 어우러졌어요!
+                        더 맛있어진 넉낌이야 정말 ㅠㅠㅠ❣️ <br><br>
+                    </p>
+                    <div class="sharp">#오레오쿠키앤스트로베리</div>
+                    <img src="img/index/rateicecream_4.png" alt="rateicecream_4">
+                </li>
+
+            </ul>
         </div>
 
         <div id="section7">
@@ -361,7 +382,7 @@
             <div class="service_box">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.8934005224983!2d126.80816381558444!3d37.36869914319049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b656f67af4c8f%3A0x2dd8051015e92558!2z67Cw7Iqk7YKo652867mI7IqkIOyLnO2dpeuKpeqzoQ!5e0!3m2!1sko!2skr!4v1653290993408!5m2!1sko!2skr"
-                    width="600" height="250" style="border:1px solid #e2d9d6;" allowfullscreen="" loading="lazy"
+                    width="600" height="250" style="border:1px solid #e2d9d6;" allowfullscreen=""
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 <div class="order">
@@ -373,71 +394,46 @@
                     <h3>배달 콜센터 1670-3131</h3>
                     <p>주문에서 결제 & 배송까지 간편하게 !</p>
                 </div>
-
             </div>
 
         </div>
 
-        <footer>
-            <ul>
-                <li><a href="#">점포개설문의</a></li>
-                <li><a href="#">채용문의</a></li>
-                <li><a href="#">윤리신고센터</a></li>
-                <li><a href="#">이용약관</a></li>
-                <li><a href="#">개인정보처리방침</a></li>
-                <li><a href="#">영상정보처리기기운영관리방침</a></li>
-                <li><a href="#">거래희망회사 사전등록</a></li>
-            </ul>
+        <div id="footer_line">
+            <footer>
+                <ul>
+                    <li><a href="#">점포개설문의</a></li>
+                    <li><a href="#">채용문의</a></li>
+                    <li><a href="#">윤리신고센터</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">영상정보처리기기운영관리방침</a></li>
+                    <li><a href="#">거래희망회사 사전등록</a></li>
+                </ul>
 
-            <div class="spc">
-                <img src="img/index/btn_happypoint.png" alt="btn_happypoint">
-                <img src="img/index/btn_happymarket.png" alt="btn_happymarket">
-                <img src="img/index/btn_spc_story.png" alt="btn_spc_story">
-                <img src="img/index/btn_norton.gif" alt="btn_norton">
-                <img src="img/index/btn_ccm_2.png" alt="btn_ccm_2" style="width: 31px; height:30px;">
-                <img src="img/index/btn_ksa.png" alt="btn_ksa">
-            </div>
+                <div class="spc">
+                    <img src="img/index/btn_happypoint.png" alt="btn_happypoint">
+                    <img src="img/index/btn_happymarket.png" alt="btn_happymarket">
+                    <img src="img/index/btn_spc_story.png" alt="btn_spc_story">
+                    <img src="img/index/btn_norton.gif" alt="btn_norton">
+                    <img src="img/index/btn_ccm_2.png" alt="btn_ccm_2" style="width: 31px; height:30px;">
+                    <img src="img/index/btn_ksa.png" alt="btn_ksa">
+                </div>
 
-            <div class="footer_logo">
-                <img src="img/index/footer_logo.png" alt="footer_logo">
-            </div>
+                <div class="footer_logo">
+                    <img src="img/index/footer_logo.png" alt="footer_logo">
+                </div>
 
-            <div class="company">
-                <div class="p1">사업자 등록번호 : 303-81-09535</div>
-                <div class="p2">비알코리아(주) 대표이사 도세호</div>
-                <div class="p3">서울특별시 서초구 남부순환로 2620(양재동 11-149번지)</div><br>
-                <div class="p4">TEL : 080-555-3131</div>
-                <div class="p5">개인정보관리책임자 : 김경우</div>
-            </div>
+                <div class="company">
+                    <div class="p1">사업자 등록번호 : 303-81-09535</div>
+                    <div class="p2">비알코리아(주) 대표이사 도세호</div>
+                    <div class="p3">서울특별시 서초구 남부순환로 2620(양재동 11-149번지)</div><br>
+                    <div class="p4">TEL : 080-555-3131</div>
+                    <div class="p5">개인정보관리책임자 : 김경우</div>
+                </div>
 
-            <div class="copyright">Copyright ⓒ 2016 BRKOREA Company. All Rights Reserved.</div>
-        </footer>
-
-        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
-
-        <script>
-            $(function () {
-                $('.menu>li').mouseover(function () {
-                    $('.sub_menu').stop().slideDown();
-                }).mouseout(function () {
-                    $('.sub_menu').stop().slideUp();
-                });
-            });
-
-            $('.prev').click(function () {
-                $('.flavors li:last').prependTo('.flavors');
-                $('.flavors').css('margin-left', -400);
-                $('.flavors').stop().animate({ marginLeft: 0 }, 800)
-            });
-
-            $('.next').click(function () {
-                $('.flavors').stop().animate({ marginLeft: -400 }, 800, function () {
-                    $('.flavors li:first').appendTo('.flavors');
-                    $('.flavors').css({ marginLeft: 0 });
-                });
-            });
-
-        </script>
+                <div class="copyright">Copyright ⓒ 2016 BRKOREA Company. All Rights Reserved.</div>
+            </footer>
+        </div>
 
     </div>
 </body>

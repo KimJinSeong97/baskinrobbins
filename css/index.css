@@ -17,7 +17,6 @@ header {
     width: 100%;
     height: 135px;
     background-image: url(../img/index/header_back.png);
-    background-repeat: repeat-x;
     border-top: 3px solid #ff7c98;
     border-bottom: 1px solid #e2d9d6;
 }
@@ -179,37 +178,14 @@ section {
     position: absolute;
     top: 180px;
     right: 10px;
+    box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+    border: none;
 }
-
-/* #video2 iframe{
-    position: absolute;
-    top: 550px;
-    right: 575px;
-}
-
-#video3 iframe{
-    position: absolute;
-    top: 550px;
-    right: 250px;
-}
-
-#video4 iframe{
-    position: absolute;
-    top: 550px;
-    right: -75px;
-}
-
-#video5 iframe{
-    position: absolute;
-    top: 550px;
-    right: -400px;
-} */
 
 #section_back {
     width: 100%;
     height: 750px;
     background-image: url(../img/index/section_back.png);
-    background-repeat: repeat-x;
 }
 
 #section2 {
@@ -247,9 +223,10 @@ section {
 
 #section2 .prev {
     position: absolute;
-    top: 340px;
+    top: 345px;
     left: 5px;
-    font-size: 50px;
+    font-size: 40px;
+    z-index: 2;
 }
 
 #section2 .prev i {
@@ -258,9 +235,10 @@ section {
 
 #section2 .next {
     position: absolute;
-    top: 340px;
+    top: 345px;
     right: 5px;
-    font-size: 50px;
+    font-size: 40px;
+    z-index: 2;
 }
 
 #section2 .next i {
@@ -286,7 +264,7 @@ section {
     position: relative;
     cursor: pointer;
     background-color: white;
-    box-shadow: 5px 5px 15px #9d9d9d;
+    box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
 }
 
 .flavors p {
@@ -581,6 +559,7 @@ section {
     width: 120px;
     height: 120px;
     top: 460px;
+    left: -15px;
     border: 5px solid white;
 }
 
@@ -613,7 +592,7 @@ section {
     font-size: 48px;
     position: absolute;
     top: 150px;
-    left: 350px;
+    left: 355px;
     font-family: 'Poppins', sans-serif;
     color: #2a435d;
     font-weight: 900;
@@ -693,6 +672,17 @@ section {
     position: absolute;
     top: 550px;
     right: 20px;
+    animation: up-down 0.5s infinite ease-out alternate;
+}
+
+@keyframes up-down {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-10px);
+    }
 }
 
 #section5_back {
@@ -712,7 +702,7 @@ section {
     font-size: 36px;
     position: absolute;
     top: 50px;
-    left: 570px;
+    left: 580px;
     font-family: 'Caveat', cursive;
     color: #ff7c98;
 }
@@ -721,7 +711,7 @@ section {
     font-size: 48px;
     position: absolute;
     top: 100px;
-    left: 492px;
+    left: 500px;
     font-family: 'Poppins', sans-serif;
     color: #2a435d;
     font-weight: 900;
@@ -736,7 +726,7 @@ section {
     left: 310px;
     z-index: 1;
     cursor: pointer;
-    box-shadow: 5px 5px 15px #9d9d9d;
+    box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
 }
 
 #section5 .icecream h4 {
@@ -788,7 +778,7 @@ section {
     right: 180px;
     z-index: 1;
     cursor: pointer;
-    box-shadow: 5px 5px 15px #9d9d9d;
+    box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
 }
 
 #section5 .icecreamcake h4 {
@@ -839,7 +829,7 @@ section {
     left: 100px;
     z-index: 1;
     cursor: pointer;
-    box-shadow: 5px 5px 15px #9d9d9d;
+    box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
 }
 
 #section5 .beverage h4 {
@@ -892,7 +882,7 @@ section {
     left: 380px;
     z-index: 1;
     cursor: pointer;
-    box-shadow: 5px 5px 15px #9d9d9d;
+    box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
 }
 
 #section5 .coffee h4 {
@@ -945,7 +935,7 @@ section {
     right: 180px;
     z-index: 1;
     cursor: pointer;
-    box-shadow: 5px 5px 15px #9d9d9d;
+    box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
 }
 
 #section5 .gift h4 {
@@ -995,7 +985,7 @@ section {
     left: 380px;
     z-index: 1;
     cursor: pointer;
-    box-shadow: 5px 5px 15px #9d9d9d;
+    box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
 }
 
 #section5 .dessert h4 {
@@ -1045,9 +1035,9 @@ section {
 #section6 {
     width: 1200px;
     height: 650px;
-    background-color: white;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
 }
 
 #section6 h2 {
@@ -1069,9 +1059,26 @@ section {
     font-weight: 900;
 }
 
+#section6 .prev2 {
+    position: absolute;
+    top: 295px;
+    left: 0px;
+    font-size: 40px;
+}
+
+#section6 .next2 {
+    position: absolute;
+    top: 295px;
+    right: 0px;
+    font-size: 40px;
+}
+
 #section6 #rating_box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1800px;
+    margin: 0 auto;
 }
 
 #section6 #rating_box .rate_1 {
@@ -1109,7 +1116,7 @@ section {
     width: 140px;
     height: 140px;
     float: right;
-    margin-top: -115px;
+    margin-top: -150px;
 }
 
 #section6 #rating_box .rate_2 {
@@ -1147,12 +1154,19 @@ section {
     width: 140px;
     height: 140px;
     float: right;
-    margin-top: -115px;
+    margin-top: -150px;
+}
+
+#section6 .sharp {
+    color: #9d9d9d;
+    font-size: 12px;
+    margin-left: 20px;
 }
 
 #section6 #rating_box .rate_1:hover,
 .rate_2:hover {
-    box-shadow: 10px 10px 20px #e2d9d6;
+    box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+    transition: 0.3s all ease;
 }
 
 #section7 {
@@ -1180,7 +1194,6 @@ section {
 #section7 .service_box {
     display: flex;
     justify-content: center;
-
 }
 
 #section7 iframe {
@@ -1226,11 +1239,17 @@ section {
     color: #9d9d9d;
 }
 
-footer {
-    width: 1200px;
-    height: 350px;
+#footer_line {
+    width: 100%;
+    height: 325px;
     margin: 0 auto;
     border-top: 1px solid goldenrod;
+}
+
+footer {
+    width: 1200px;
+    height: 325px;
+    margin: 0 auto;
 }
 
 footer ul {
@@ -1243,7 +1262,6 @@ footer ul li {
     margin-top: 30px;
     margin-bottom: 30px;
     letter-spacing: -1px;
-    color: #726454;
 }
 
 footer ul li a {
