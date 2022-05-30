@@ -34,8 +34,20 @@ $(function () {
                     $('.flavors').css({ marginLeft: 0 });
                 });
             });
-        }
+        } else {
+            $('.prev').click(function () {
+                $('.flavors li:last').prependTo('.flavors');
+                $('.flavors').css('margin-left', "-83%");
+                $('.flavors').stop().animate({ marginLeft: 0 }, 800)
+            });
 
+            $('.next').click(function () {
+                $('.flavors').stop().animate({ marginLeft: "-83%" }, 800, function () {
+                    $('.flavors li:first').appendTo('.flavors');
+                    $('.flavors').css({ marginLeft: 0 });
+                });
+            });
+        };
     }
 
     function MediaSize2() {
@@ -52,6 +64,13 @@ $(function () {
                     $('#rating_box').css({ marginLeft: 0 });
                 });
             });
+        } else {
+            $('.next2').click(function () {
+                $('#rating_box').stop().animate({ marginLeft: "-100%" }, 800, function () {
+                    $('#rating_box li:first').appendTo('#rating_box');
+                    $('#rating_box').css({ marginLeft: 0 });
+                });
+            });
         }
     }
 
@@ -64,6 +83,7 @@ $(function () {
 
     MediaSize2();
 
+    
     // 1200미만으로 사이즈 줄때 nav 반응
     $(function(){
         $("#burger").click(function(){
