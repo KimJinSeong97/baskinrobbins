@@ -68,30 +68,39 @@
     }
 
     nav {
-        width: 100%;
+        width: 200px;
         margin: 0 auto;
         display: block;
     }
 
     .menu {
-        line-height: 400%;
+        width: 200px;
+        font-size: 12px;
+        /* line-height: 400%;
         letter-spacing: -0.5px;
         font-size: 12px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-around; */
     }
 
     .menu>li {
-        width: 500%;
+        line-height: 40px;
         text-align: center;
+        /* width: 500%;
+        text-align: center; */
     }
 
     .menu>li>a {
         font-family: 'GmarketSansMedium';
     }
 
+    .menu #login{
+        display: none;
+    }
+
     .menu #fla_font{
         font-size: 11px;
+        display: none;
     }
 
     .menu #fla_font2{
@@ -100,11 +109,16 @@
 
     .sub_menu {
         display: none;
+        width: 100%;
     }
 
     .sub_menu>li a {
         color: #9d9d9d;
         letter-spacing: -0.5px;
+    }
+
+    .sub_menu>li a img{
+        display: none;
     }
 
     .sub_menu>li a:hover {
@@ -718,9 +732,10 @@
     }
 
     #section4 #img_box img:nth-of-type(2) {
-        width: 55px;
+        width: 75px;
         height: auto;
-        margin-left: 280px;
+        margin-top: -45px;
+        margin-left: 285px;
         animation: up-down 0.5s infinite ease-out alternate;
     }
 
@@ -1146,7 +1161,7 @@
     #section6 .rate_1 .name {
         font-size: 18px;
         font-family: 'GmarketSansMedium';
-        margin-left: -10px;
+        margin-left: -5px;
         margin-right: 10px;
     }
 
@@ -1244,7 +1259,7 @@
         width: 100%;
         position: absolute;
         font-family: 'GmarketSansBold';
-        top: 525px;
+        top: 500px;
         text-align: center;
         display: inline-block;
     }
@@ -1279,14 +1294,14 @@
 
     #section7 .order h2 {
         font-size: 16px;
-        margin-top: -150px;
+        margin-top: -160px;
         margin-left: 250px;
         letter-spacing: -1px;
         font-family: 'GmarketSansBold';
     }
 
     #section7 .order h3 {
-        font-size: 14px;
+        font-size: 13px;
         margin-top: 10px;
         margin-left: 250px;
         letter-spacing: -1px;
@@ -1295,7 +1310,7 @@
     }
 
     #section7 .order p {
-        font-size: 8px;
+        font-size: 11px;
         margin-top: 10px;
         margin-left: 250px;
         letter-spacing: -2px;
@@ -1304,14 +1319,14 @@
 
     #footer_line {
         width: 100%;
-        height: 325px;
+        height: 400px;
         margin: 0 auto;
         border-top: 1px solid goldenrod;
     }
 
     footer {
         width: 100%;
-        height: 325px;
+        height: 400px;
         margin: 0 auto;
     }
 
@@ -1321,10 +1336,12 @@
     }
 
     footer ul li {
-        font-size: 13px;
+        font-size: 11px;
         margin-top: 30px;
         margin-bottom: 30px;
         letter-spacing: -1px;
+        text-align: center;
+        padding: 1%;
     }
 
     footer ul li a {
@@ -1656,20 +1673,21 @@
     }
 
     .flavors {
-        width: 131.5%;
-        height: 550px;
+        width: 187.5%;
+        height: auto;
         margin: 0 auto;
         display: flex;
         justify-content: space-evenly;
         align-items: flex-end;
+        margin-top: 220px;
     }
 
     .flavors .box1,
     .box2,
     .box3,
     .box4 {
-        width: 19%;
-        height: 350px;
+        width: 15%;
+        height: auto;
         border: 1px solid #e2d9d6;
         position: relative;
         cursor: pointer;
