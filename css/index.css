@@ -4,7 +4,7 @@
     #wrap {
         width: 100%;
         margin: 0 auto;
-        overflow-x: hidden ;
+        overflow-x: hidden;
     }
 
     header {
@@ -53,11 +53,11 @@
         padding-right: 5%;
     }
 
-    header #right li:nth-of-type(1){
+    header #right li:nth-of-type(1) {
         display: none;
     }
 
-    header #right li:nth-of-type(2){
+    header #right li:nth-of-type(2) {
         display: none;
     }
 
@@ -94,16 +94,16 @@
         font-family: 'GmarketSansMedium';
     }
 
-    .menu #login{
+    .menu #login {
         display: none;
     }
 
-    .menu #fla_font{
+    .menu #fla_font {
         font-size: 11px;
         display: none;
     }
 
-    .menu #fla_font2{
+    .menu #fla_font2 {
         font-size: 11px;
     }
 
@@ -117,7 +117,7 @@
         letter-spacing: -0.5px;
     }
 
-    .sub_menu>li a img{
+    .sub_menu>li a img {
         display: none;
     }
 
@@ -277,6 +277,7 @@
         left: 5px;
         font-size: 40px;
         z-index: 2;
+        cursor: pointer;
     }
 
     #section2 .prev i {
@@ -289,6 +290,7 @@
         right: 5px;
         font-size: 40px;
         z-index: 2;
+        cursor: pointer;
     }
 
     #section2 .next i {
@@ -1132,6 +1134,7 @@
         top: 295px;
         left: 0px;
         font-size: 40px;
+        cursor: pointer;
     }
 
     #section6 .next2 {
@@ -1139,6 +1142,7 @@
         top: 295px;
         right: 0px;
         font-size: 40px;
+        cursor: pointer;
     }
 
     #section6 #rating_box {
@@ -1319,14 +1323,14 @@
 
     #footer_line {
         width: 100%;
-        height: 400px;
+        height: 550px;
         margin: 0 auto;
         border-top: 1px solid goldenrod;
     }
 
     footer {
         width: 100%;
-        height: 400px;
+        height: 550px;
         margin: 0 auto;
     }
 
@@ -1401,7 +1405,7 @@
     #wrap {
         width: 100%;
         margin: 0 auto;
-        overflow-x: hidden ;
+        overflow-x: hidden;
     }
 
     header {
@@ -1478,11 +1482,11 @@
         font-family: 'GmarketSansMedium';
     }
 
-    .menu #fla_font{
+    .menu #fla_font {
         font-size: 11px;
     }
 
-    .menu #fla_font2{
+    .menu #fla_font2 {
         font-size: 11px;
     }
 
@@ -1654,6 +1658,7 @@
         left: 5px;
         font-size: 40px;
         z-index: 2;
+        cursor: pointer;
     }
 
     #section2 .prev i {
@@ -1666,6 +1671,7 @@
         right: 5px;
         font-size: 40px;
         z-index: 2;
+        cursor: pointer;
     }
 
     #section2 .next i {
@@ -2504,6 +2510,7 @@
         top: 295px;
         left: 0px;
         font-size: 40px;
+        cursor: pointer;
     }
 
     #section6 .next2 {
@@ -2511,6 +2518,7 @@
         top: 295px;
         right: 0px;
         font-size: 40px;
+        cursor: pointer;
     }
 
     #section6 #rating_box {
@@ -2813,7 +2821,7 @@
         padding: 10px;
     }
 
-    header #right #burger{
+    header #right #burger {
         display: none;
     }
 
@@ -2839,7 +2847,7 @@
         font-family: 'GmarketSansMedium';
     }
 
-    .menu #fla_font{
+    .menu #fla_font {
         font-size: 12px;
     }
 
@@ -2867,7 +2875,7 @@
     }
 
     #slider {
-        width: 1600px;
+        width: 100%;
         height: 800px;
         margin: 0 auto;
         position: relative;
@@ -2878,9 +2886,12 @@
         font-family: 'GmarketSansBold';
         color: #2a435d;
         position: absolute;
-        top: 180px;
-        left: 20px;
+        width: 60%;
+        top: 22%;
+        left: 12%;
         line-height: 1.2;
+        text-align: left;
+        z-index: 1;
     }
 
     #slider .pink {
@@ -2891,24 +2902,30 @@
 
     #slider p {
         position: absolute;
-        top: 350px;
-        left: 20px;
+        width: 65%;
+        top: 44%;
+        left: 12%;
         font-size: 20px;
         font-family: 'GmarketSansLight';
+        text-align: left;
+        z-index: 1;
     }
 
     #slider h3 {
         position: absolute;
-        top: 450px;
-        left: 20px;
+        width: 25%;
+        width: 25%;
+        top: 57%;
+        right: 63%;
         font-size: 18px;
         font-family: 'GmarketSansLight';
     }
 
     #slider h4 {
         position: absolute;
-        top: 500px;
-        left: 20px;
+        width: 25%;
+        top: 63%;
+        right: 63%;
         font-size: 18px;
         font-family: 'GmarketSansLight';
     }
@@ -2921,11 +2938,11 @@
     }
 
     #slider button {
-        width: 190px;
+        width: 12%;
         height: 50px;
         position: absolute;
         top: 570px;
-        left: 20px;
+        right: 76%;
         background-color: #ff7c98;
         border: none;
         border-radius: 7px;
@@ -2944,10 +2961,12 @@
 
     #video1 iframe {
         position: absolute;
-        top: 180px;
-        right: 10px;
+        top: 22%;
+        left: 55%;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
         border: none;
+        width: 40%;
+        z-index: 0;
     }
 
     #section_back {
@@ -2995,6 +3014,7 @@
         left: 5px;
         font-size: 40px;
         z-index: 2;
+        cursor: pointer;
     }
 
     #section2 .prev i {
@@ -3007,6 +3027,7 @@
         right: 5px;
         font-size: 40px;
         z-index: 2;
+        cursor: pointer;
     }
 
     #section2 .next i {
@@ -3832,6 +3853,7 @@
         top: 295px;
         left: 0px;
         font-size: 40px;
+        cursor: pointer;
     }
 
     #section6 .next2 {
@@ -3839,6 +3861,7 @@
         top: 295px;
         right: 0px;
         font-size: 40px;
+        cursor: pointer;
     }
 
     #section6 #rating_box {
