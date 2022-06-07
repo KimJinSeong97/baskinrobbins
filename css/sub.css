@@ -178,6 +178,7 @@ section #buy button {
     width: 178px;
     height: 178px;
     border: 1px solid #e3e7e7;
+    cursor: pointer;
 }
 
 #section2 li .title {
@@ -244,7 +245,7 @@ section #buy button {
 }
 
 #section4 {
-    width: 900px;
+    width: 100%;
     height: 900px;
     margin: 0 auto;
 }
@@ -267,7 +268,110 @@ section #buy button {
 #section4 #instagram {
     width: 900px;
     height: 550px;
-    background-color: #2a435d;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#section4 #instagram img {
+    width: 175px;
+    height: 179px;
+    cursor: pointer;
+}
+
+#section4 #instagram img:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+
+#section4 #open {
+    width: 1000px;
+    height: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: fixed;
+    top: 125px;
+    left: 450px;
+    background-color: white;
+    z-index: 2;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px;
+}
+
+#section4 #open #left img {
+    width: 640px;
+    height: 640px;
+}
+
+#section4 #open #right {
+    width: 320px;
+    height: 600px;
+    padding: 20px;
+}
+
+#section4 .user {
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#section4 .user img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#section4 .user h4 {
+    font-size: 15px;
+    font-family: 'GmarketSansLight';
+}
+
+#section4 .user h5 {
+    font-size: 10px;
+    font-family: 'GmarketSansLight';
+    color: #9d9d9d;
+}
+
+#section4 .caption {
+    width: 300px;
+    height: 510px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e2d9d6;
+}
+
+#section4 .caption p {
+    padding: 5%;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#section4 .function {
+    width: 300px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#section4 .function img {
+    width: 20px;
+    height: 20px;
+    margin: 2%;
+    cursor: pointer;
+}
+
+#section4 #exit img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    cursor: pointer;
 }
 
 #section4 button {
@@ -282,7 +386,7 @@ section #buy button {
     outline: none;
     position: relative;
     top: 100px;
-    left: 350px;
+    left: 860px;
     letter-spacing: -1px;
     font-family: 'GmarketSansMedium';
     border: 2px solid #ff7c98;
