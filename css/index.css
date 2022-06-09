@@ -145,7 +145,7 @@
     #slider h2 {
         width: 100%;
         height: 145px;
-        font-size: 195%;
+        font-size: 7vw;
         font-family: 'GmarketSansBold';
         color: #2a435d;
         position: absolute;
@@ -155,7 +155,7 @@
     }
 
     #slider .pink {
-        font-size: 103%;
+        font-size: 7vw;
         font-family: 'GmarketSansBold';
         color: #ff7c98;
     }
@@ -164,8 +164,8 @@
         width: 100%;
         height: 90px;
         position: absolute;
-        top: 25%;
-        font-size: 100%;
+        top: 27.5%;
+        font-size: 2.6vw;
         font-family: 'GmarketSansLight';
         text-align: center;
         line-height: 1.7;
@@ -176,7 +176,7 @@
         height: 50px;
         position: absolute;
         top: 450px;
-        font-size: 18px;
+        font-size: 2.3vw;
         font-family: 'GmarketSansLight';
         text-align: center;
     }
@@ -186,13 +186,13 @@
         height: 50px;
         position: absolute;
         top: 500px;
-        font-size: 18px;
+        font-size: 2.3vw;
         font-family: 'GmarketSansLight';
         text-align: center;
     }
 
     #slider .price {
-        font-size: 28px;
+        font-size: 3.7vw;
         font-family: 'GmarketSansBold';
         color: #ff7c98;
         letter-spacing: -0.5px;
@@ -208,7 +208,7 @@
         border: none;
         border-radius: 7px;
         color: white;
-        font-size: 16px;
+        font-size: 2.1vw;
         font-family: 'GmarketSansMedium';
         cursor: pointer;
     }
@@ -1543,9 +1543,9 @@
         width: 100%;
         height: 90px;
         position: absolute;
-        top: 350px;
+        top: 345px;
         left: 1%;
-        font-size: 20px;
+        font-size: 18px;
         font-family: 'GmarketSansLight';
         text-align: center;
     }
@@ -2882,7 +2882,7 @@
     }
 
     #slider h2 {
-        font-size: 60px;
+        font-size: 3.125vw;
         font-family: 'GmarketSansBold';
         color: #2a435d;
         position: absolute;
@@ -2895,7 +2895,7 @@
     }
 
     #slider .pink {
-        font-size: 60px;
+        font-size: 3.125vw;
         font-family: 'GmarketSansBold';
         color: #ff7c98;
     }
@@ -2903,9 +2903,9 @@
     #slider p {
         position: absolute;
         width: 65%;
-        top: 44%;
+        top: 43%;
         left: 12%;
-        font-size: 20px;
+        font-size: 1.06vw;
         font-family: 'GmarketSansLight';
         text-align: left;
         z-index: 1;
@@ -2914,10 +2914,9 @@
     #slider h3 {
         position: absolute;
         width: 25%;
-        width: 25%;
         top: 57%;
         right: 63%;
-        font-size: 18px;
+        font-size: 0.9375vw;
         font-family: 'GmarketSansLight';
     }
 
@@ -2926,12 +2925,12 @@
         width: 25%;
         top: 63%;
         right: 63%;
-        font-size: 18px;
+        font-size: 0.9375vw;
         font-family: 'GmarketSansLight';
     }
 
     #slider .price {
-        font-size: 28px;
+        font-size: 1.458vw;
         font-family: 'GmarketSansBold';
         color: #ff7c98;
         letter-spacing: -0.5px;
@@ -2962,11 +2961,12 @@
     #video1 iframe {
         position: absolute;
         top: 22%;
-        left: 55%;
+        right: 8%;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
         border: none;
         width: 40%;
         z-index: 0;
+        display: flex;
     }
 
     #section_back {
