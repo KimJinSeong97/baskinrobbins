@@ -143,13 +143,14 @@
     }
 
     #slider h2 {
-        width: 100%;
+        width: 85%;
         height: 145px;
         font-size: 7vw;
         font-family: 'GmarketSansBold';
         color: #2a435d;
         position: absolute;
-        top: 180px;
+        top: 10%;
+        left: 7.5%;
         line-height: 1.2;
         text-align: center;
     }
@@ -161,22 +162,22 @@
     }
 
     #slider p {
-        width: 100%;
+        width: 80%;
         height: 90px;
         position: absolute;
-        top: 27.5%;
-        font-size: 2.6vw;
+        top: 22%;
+        left: 10%;
+        font-size: 16px;
         font-family: 'GmarketSansLight';
         text-align: center;
-        line-height: 1.7;
     }
 
     #slider h3 {
         width: 100%;
         height: 50px;
         position: absolute;
-        top: 450px;
-        font-size: 2.3vw;
+        top: 36%;
+        font-size: 15px;
         font-family: 'GmarketSansLight';
         text-align: center;
     }
@@ -185,14 +186,14 @@
         width: 100%;
         height: 50px;
         position: absolute;
-        top: 500px;
-        font-size: 2.3vw;
+        top: 40%;
+        font-size: 15px;
         font-family: 'GmarketSansLight';
         text-align: center;
     }
 
     #slider .price {
-        font-size: 3.7vw;
+        font-size: 4vw;
         font-family: 'GmarketSansBold';
         color: #ff7c98;
         letter-spacing: -0.5px;
@@ -202,13 +203,13 @@
         width: 20%;
         height: 50px;
         position: absolute;
-        top: 570px;
+        top: 45%;
         left: 40%;
         background-color: #ff7c98;
         border: none;
         border-radius: 7px;
         color: white;
-        font-size: 2.1vw;
+        font-size: 2.5vw;
         font-family: 'GmarketSansMedium';
         cursor: pointer;
     }
@@ -795,6 +796,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .icecream h4 {
@@ -830,11 +832,11 @@
     }
 
     #section5 .icecream .more {
-        font-size: 12px;
+        font-size: 11px;
         color: #9d9d9d;
         float: left;
         margin-top: -100px;
-        margin-left: 85px;
+        margin-left: 80px;
     }
 
     #section5 .icecreamcake {
@@ -847,6 +849,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .icecreamcake h4 {
@@ -898,6 +901,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .beverage h4 {
@@ -906,6 +910,7 @@
         margin-left: 40px;
         letter-spacing: -0.5px;
         color: #ff7c98;
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .beverage p {
@@ -951,6 +956,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .coffee h4 {
@@ -1004,6 +1010,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .gift h4 {
@@ -1054,6 +1061,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .dessert h4 {
@@ -1165,8 +1173,6 @@
     #section6 .rate_1 .name {
         font-size: 18px;
         font-family: 'GmarketSansMedium';
-        margin-left: -5px;
-        margin-right: 10px;
     }
 
     #section6 .rate_1 .stars {
@@ -1317,7 +1323,7 @@
         font-size: 11px;
         margin-top: 10px;
         margin-left: 250px;
-        letter-spacing: -2px;
+        letter-spacing: -1px;
         color: #9d9d9d;
     }
 
@@ -2171,6 +2177,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .icecream h4 {
@@ -2223,6 +2230,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .icecreamcake h4 {
@@ -2274,6 +2282,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .beverage h4 {
@@ -2327,6 +2336,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .coffee h4 {
@@ -2380,6 +2390,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .gift h4 {
@@ -2430,6 +2441,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .dessert h4 {
@@ -2689,7 +2701,7 @@
         font-size: 8px;
         margin-top: 10px;
         margin-left: 250px;
-        letter-spacing: -2px;
+        letter-spacing: -1px;
         color: #9d9d9d;
     }
 
@@ -2882,20 +2894,20 @@
     }
 
     #slider h2 {
-        font-size: 3.125vw;
+        font-size: 3.5vw;
         font-family: 'GmarketSansBold';
         color: #2a435d;
         position: absolute;
         width: 60%;
         top: 22%;
-        left: 12%;
+        left: 8%;
         line-height: 1.2;
         text-align: left;
         z-index: 1;
     }
 
     #slider .pink {
-        font-size: 3.125vw;
+        font-size: 3.5vw;
         font-family: 'GmarketSansBold';
         color: #ff7c98;
     }
@@ -2904,8 +2916,8 @@
         position: absolute;
         width: 65%;
         top: 43%;
-        left: 12%;
-        font-size: 1.06vw;
+        left: 8%;
+        font-size: 1.3vw;
         font-family: 'GmarketSansLight';
         text-align: left;
         z-index: 1;
@@ -2914,9 +2926,9 @@
     #slider h3 {
         position: absolute;
         width: 25%;
-        top: 57%;
-        right: 63%;
-        font-size: 0.9375vw;
+        top: 58%;
+        left: 8%;
+        font-size: 1.2vw;
         font-family: 'GmarketSansLight';
     }
 
@@ -2924,13 +2936,13 @@
         position: absolute;
         width: 25%;
         top: 63%;
-        right: 63%;
-        font-size: 0.9375vw;
+        left: 8%;
+        font-size: 1.2vw;
         font-family: 'GmarketSansLight';
     }
 
     #slider .price {
-        font-size: 1.458vw;
+        font-size: 1.5vw;
         font-family: 'GmarketSansBold';
         color: #ff7c98;
         letter-spacing: -0.5px;
@@ -2940,8 +2952,8 @@
         width: 12%;
         height: 50px;
         position: absolute;
-        top: 570px;
-        right: 76%;
+        top: 71%;
+        left: 8%;
         background-color: #ff7c98;
         border: none;
         border-radius: 7px;
@@ -3516,6 +3528,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .icecream h4 {
@@ -3568,6 +3581,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .icecreamcake h4 {
@@ -3619,6 +3633,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .beverage h4 {
@@ -3672,6 +3687,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .coffee h4 {
@@ -3725,6 +3741,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .gift h4 {
@@ -3775,6 +3792,7 @@
         z-index: 1;
         cursor: pointer;
         box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        font-family: 'Poppins', sans-serif;
     }
 
     #section5 .dessert h4 {
@@ -4026,7 +4044,7 @@
         font-size: 12px;
         margin-top: 10px;
         margin-left: 250px;
-        letter-spacing: -2px;
+        letter-spacing: -1px;
         color: #9d9d9d;
     }
 
